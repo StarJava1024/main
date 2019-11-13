@@ -1,33 +1,75 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
-
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<link href="css/index_css.css" type="text/css" rel="stylesheet" />
-	<link rel="icon" href="img/Star丶Java.ico" type="img/x-ico" />
-	<link rel="icon" href="img/Star" type="img/x-ico" />
-	<title>笔心比兴</title>
+	<link rel="icon" href="material/imgers/Star_Java.ico" type="img/x-ico" />
+	<link rel="stylesheet" href="css/index.css" type="text/css" />
+	<link rel="stylesheet" href="bootstrap/css/bootstrap3.css" type="text/css" />
+	<!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.css" type="text/css" /> -->
+	<script src="bootstrap/js/jquery-3.4.1.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="bootstrap/js/bootstrap3.js" type="text/javascript" charset="UTF-8"></script>
+	<title>世界与你同在</title>
 </head>
-
 <body>
-	<div id="yy">
-		<p id="p1">欢迎来到笔心比兴</p>
-		<p id="p2">点击"进入"按钮</p><br />
-		<input id="jr" type="button" value="进入" onclick="javascript :window.location.href='../金庸/index.html'" />
-	</div>
-	<div id="zd">
-		<a href="#">TOP</a>
-	</div>
-	<div>
-		
-	</div>
-	<form>
-		<td><a href="../../index.html">首页</a></td>
-		<td><a href="#">上一页</a></td>
-		<td><a href="no2.html">下一页</a></td>
-		<!--<td><a href="head.html">目录</a></td>-->
-	</form>
-</body>
+	<!-- 顶部 -->
+	<marquee scrollamount="10px" ><font size="+1">欢迎进入Star丶Java空间！ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;正在播放[与你同在]--纯音乐</font></marquee>
+	<hr style="margin: 0; border-top: 1px solid rgb(248, 248, 248);" />
+	
+	<nav class="navbar navbar-default" id="navigation" role="navigation">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="#">笔心比兴</a>
+			<!-- 设置汉堡菜单，<span class="icon-bar"></span> 表示一条线，三个表示三条线 -->
+			<button type="button" class="navbar-toggle" data-toggle= "collapse" data-target="#navbarcollapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
 
+		<!-- 设置折叠菜单 -->
+		<div class="collapse navbar-collapse" id="navbarcollapse">
+			<ul class="nav navbar-nav">
+				<li><a href="#">首页</a></li>
+				<li class="active"><a href="https://www.cnblogs.com/AI-Star-Java" target="_blank">Blog</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle= "dropdown">功能<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="html/calculator.html">计算器</a></li>
+						<li><a href="html/memorandum.html">备忘录</a></li>
+						<!-- <li><a href="#">导航栏</a></li>
+						<li class="divider"></li>
+						<li><a href="#">分离的链接</a></li>
+						<li class="divider"></li>
+						<li><a href="#">另一个分离的链接</a></li> -->
+					</ul>
+				</li>
+				<li class="active"><a href="#">关于</a></li>
+			</ul>
+		</div>
+	</nav>
+	
+	<!-- 中部 -->
+	<div class="central">
+		<p id="main_title">世 界 与 你 同 在</p>
+		<div class="input-group" id="sousuo">
+			<!-- <input type="text" class="form-control" id="kuang" placeholder= "笔兴比兴">
+			<span class="input-group-addon"><a href="http://www.baidu.com" target="_blank">百度</a></span> -->
+		</div>
+		<audio src="material/music/worldiwiu.mp3" loop="loop" controls="controls" autoplay="autoplay" />
+	</div>
+	
+	<!-- 底部 -->
+	<div class="end"><h4>
+    	<div><img src="material/imgers/Star丶java.png" /></div>
+    	<div id="name"><b>世&nbsp;&nbsp;界&nbsp;&nbsp;与&nbsp;&nbsp;你&nbsp;&nbsp;同&nbsp;&nbsp;在</b></div>
+	    <div id="IdNum"><b>&copy;2019 &nbsp;The world is with you.
+		    <img style="width:13px, height:16px" src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/copy_rignt_24.png" />
+		    <a href="http://www.beian.miit.gov.cn/" id="icp">京ICP备19017799号</a><img src="material/imgers/ghs.png" />
+		</b></div></h4>
+	</div>
+	
+</body>
 </html>
+
+
