@@ -1,37 +1,47 @@
+@charset "utf-8";
+
 body{
 	font-family: "楷体";
 	height: 100%;
 }
+
 /* 顶部 */
 marquee{
 	padding-top: 7px;
 	font-family: "楷体";
 }
+
 #navbarcollapse{
 	text-align: right;
 	margin: 0px;
 }
+
 /* 中部 */
 .central{
 	text-align: center;
 	height: 50%;
 }
+
 #main_title{
 	font-family: "楷体";
 	font-size: 225%;
 	padding-top: 140px;
 }
+
 #sousuo{
 	left: 21%;
 	right: 21%;
 	width: 50%;
 }
+
 #kuang{
 	width: 160px;
 }
+
 audio{
-	padding-top: 100px;
+	padding-top: 50px;
 }
+
 /* 底部 */
 .end{
 	font-family: "楷体";
@@ -40,18 +50,22 @@ audio{
 	bottom: 0;
 	position: absolute;
 }
+
 h4{
 	margin-top: 0;
 	margin-bottom: 10px;
 }
+
 #name{
 	font-size: 20px;
 }
-#IdNum{
+
+#idNum{
 	font-family: "等线";
 	font-size: 14px;
 	font-color: #999;
 }
+
 #icp{
 	font-size: 13px;
 }
