@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+body{
+	font-size: 20px;
+	font-family: "楷体";
+}
+
+#d1_1{
+	position: fixed;
+	z-index: 999;
+	width: 96%;
+	background: rgb(255, 255, 255);
+	top: 0;
+	padding-top: 20px;
+}
+
+#d1_1_1{
+	text-align: center;
+}
+
+#d1_1_2{
+	z-index: 999;
+	font-size: 24px;
+	font-weight: 900;
+	cursor: pointer;
+	background: transparent;
+}
+
+#add{
+	left: 15px;
+	position: fixed;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 5px;
+	border: 1px solid rgb(150, 150, 150);
+	background: rgba(230, 230, 230, 0.1);
+}
+
+#less{
+	right: 15px;
+	position: fixed;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 5px;
+	border: 1px solid rgb(150, 150, 150);
+	background: rgba(230, 230, 230, 0.1);
+	
+}
+
+#d2{
+	display: none; /* 隐藏 */
+	cursor: pointer;
+}
+
+#back{
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 50px;
+	border: 1px solid rgb(150, 150, 150);
+	background: rgba(230, 230, 230, 0.1);
+}
+
+#save{
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 50px;
+	border: 1px solid rgb(150, 150, 150);
+	background: rgba(230, 230, 230, 0.1);
+	position: fixed;
+	right: 10px;
+}
+
+#cnt{
+	margin: 20px auto;
+	margin-top: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	overflow: auto;
+	outline: none;
+	width: 97%;
+	height: 300px;
+	border: 1px solid rgb(28, 28, 28);
+}
+
+.txt{
+	width: 95%;
+	border: 1px solid #999;
+	border-radius: 5px;
+	background: #ccc;
+	margin: 10px;
+	padding: 5px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.txts{
+	padding-top: 85px;
+}
+
+.deletetxt{
+	font-size: 12px;
+	position: absolute;
+	cursor: pointer;
+	right: 3px;
+	top: 3px;
+	color: #666;
+}
+
+.titletxt{
+	margin: 10px;
+}
+
+.datetxt{
+	font-size: 11px;
+	color: #666;
+}
+
+#d3{
+	z-index: 999;
+	text-align: center;
+	border-radius: 15px;
+	border: 1px solid rgb(150, 150, 150);
+	background: rgba(230, 230, 230, 0.1);
+	position: fixed;
+	left: 30%;
+	right: 30%;
+	top: 67px;
+	/* display: none; */
+}
+
+/* 底部 */
+.end{
+	font-family: "楷体";
+	text-align: center;
+	width: 96%;
+	bottom: 0;
+	position: absolute;
+	box-sizing: border-box;
+}
+
+h4{
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+#icon{
+	width: 66px;
+}
+
+#name{
+	font-size: 20px;
+}
+
+#IdNum{
+	font-family: "等线";
+	font-size: 14px;
+}
+
+#icp{
+	font-size: 13px;
+}
+

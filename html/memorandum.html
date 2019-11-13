@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="icon" href="../material/imgers/Star_Java.ico" type="img/x-ico" />
+		<link href="../css/memorandum.css" type="text/css" rel="stylesheet" />
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+		<script src="../bootstrap/js/jquery-3.4.1.js"></script>
+		<title>备忘录</title>
+	</head>
+	
+	<body>
+		
+		<div id="d1">
+			<div id="d1_1">
+				<div id="d1_1_1">
+					<span id="bwl"><b>备忘录</b></span>
+				</div>
+				<hr />
+				<div id="d1_1_2">
+					<span id="add" onclick="add()">+</span>
+					<span id="less" onclick="less()">-</span>
+				</div>
+			</div>
+			<div class="txts" id="txts"></div>
+		</div>
+		
+		<div id="d2">
+			<div id="d2_1">
+				<span id="back" onclick="back()"><b>返回</b></span>
+				<span class="bind_hover_card" id="save" data-toggle="popover" onclick="save()"><b>保存</b></span>
+			</div>
+			<hr />
+			<div id="cnt" contenteditable></div>
+		</div>
+		
+		<div id="d3"></div>
+		
+		<!-- 底部 -->
+		<div class="end">
+			<hr />
+			<h4>
+			<div><img id="icon" src="../material/imgers/Star丶java.png" /></div>
+			<div id="name"><b>世&nbsp;界&nbsp;与&nbsp;你&nbsp;同&nbsp;在</b></div>
+		    <div id="IdNum">
+				<b>&copy;2019 &nbsp;The world is with you.
+			    <img style="width:13px, height:16px" src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/copy_rignt_24.png" /><br />
+			    <a href="http://www.beian.miit.gov.cn/" id="icp">京ICP备19017799号</a><img src="../material/imgers/ghs.png" />
+			</b></div></h4>
+		</div>
+		
+		<script src="../js/memorandum.js"></script>
+		
+	</body>
+	
+</html>
